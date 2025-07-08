@@ -30,9 +30,8 @@
     position: absolute;
     top: 0;
     left: 0;
-    /* content: '+'; */
-    content: \2726;
-    font-size: 9px;
+    content: '+';
+    font-size: 12px;
 }
 
 .star:before {
