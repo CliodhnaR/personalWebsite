@@ -24,14 +24,14 @@
 .star {
     position: fixed;
     pointer-events: none;
-
 }
 
 .star:before, .star:after {
     position: absolute;
     top: 0;
     left: 0;
-    content: '+';
+    /* content: '+'; */
+    content: \2726;
     font-size: 9px;
 }
 
