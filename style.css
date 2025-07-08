@@ -31,16 +31,16 @@
     top: 0;
     left: 0;
     content: '+';
-    font-size: 12px;
+    font-size: 9px;
 }
 
 .star:before {
     color: transparent;
-    text-shadow: 0 0 3px rgb(55, 11, 63);
+    text-shadow: 0 0 3px rgb(182, 159, 190);
 }
 
 .star:after {
-    background: rgb(55, 11, 63);
+    background: rgb(182, 159, 190);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
