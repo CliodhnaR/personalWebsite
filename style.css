@@ -42,5 +42,6 @@
 
 .star:after {
     background: rgb(55, 11, 63);
-    
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
