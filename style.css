@@ -1,4 +1,5 @@
 .nav_item {
+    float: left;
     display: block;
     padding: 8px;
     background-color: rgb(183, 138, 224);
