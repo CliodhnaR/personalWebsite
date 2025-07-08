@@ -3,14 +3,22 @@
     width: 100%;
 }
 
-.nav_item {
+li {
     float: left;
+}
+
+.nav_item {
     display: block;
     padding: 8px;
     background-color: rgb(183, 138, 224);
     text-decoration: none;
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+li a:active {
+    color: rgb(76, 33, 76);
+    background-color: blue;
 }
 
 .nav_item:active {
