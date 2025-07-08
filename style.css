@@ -20,3 +20,27 @@
 .nav_item:hover {
     color: rgb(76, 33, 76);
 }
+
+.star {
+    position: fixed;
+    pointer-events: none;
+
+}
+
+.star:before, .star:after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: '+';
+    font-size: 9px;
+}
+
+.star:before {
+    color: transparent;
+    text-shadow: 0 0 3px yellow;
+}
+
+.star:after {
+    background: yellow;
+    
+}
