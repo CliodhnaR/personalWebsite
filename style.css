@@ -1,10 +1,7 @@
 .nav_bar {
     background-color: rgb(222, 188, 254);
     width: 100%;
-}
-
-li {
-    float: left;
+    display: block;
 }
 
 .nav_item {
@@ -16,12 +13,7 @@ li {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-li a:active {
-    color: rgb(76, 33, 76);
-    background-color: blue;
-}
-
-.nav_item:active {
+.nav_item a:active {
     color: rgb(76, 33, 76);
 }
 
