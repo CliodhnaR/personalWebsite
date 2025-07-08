@@ -1,7 +1,12 @@
-<head>
-    <link rel="import" href="/navbar.html">
-</head>
+<div id="navbar_location"></div>
+
 <object data="/Jul25_Resume.pdf" type="application/pdf" width="45%" height="80%">
     <b>Cliodhna Reidy's Resume</b>: This browser does not support PDFs. Please download the PDF to view it: 
     <a href="/Jul25_Resume.pdf">Download PDF</a>.
 </object>
+
+<script>
+    $(function() {
+        $("#navbar_location").load("navbar.html")
+    });
+</script>
