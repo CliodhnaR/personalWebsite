@@ -3,4 +3,10 @@
     display: block;
     padding: 8px;
     background-color: rgb(183, 138, 224);
+    text-decoration: none;
+    color: white;
+}
+
+.nav_item:active {
+    color: rgb(76, 33, 76);
 }
