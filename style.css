@@ -1,5 +1,6 @@
-nav {
+.nav_bar {
     background-color: rgb(222, 188, 254);
+    width: 100%;
 }
 
 .nav_item {
