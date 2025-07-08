@@ -37,10 +37,10 @@
 
 .star:before {
     color: transparent;
-    text-shadow: 0 0 3px yellow;
+    text-shadow: 0 0 3px rgb(55, 11, 63);
 }
 
 .star:after {
-    background: yellow;
+    background: rgb(55, 11, 63);
     
 }
