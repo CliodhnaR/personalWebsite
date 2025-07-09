@@ -44,3 +44,27 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
+.note {
+    position: fixed;
+    pointer-events: none;
+}
+
+.note:before, .note:after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: 'click';
+    font-size: 12px;
+}
+
+.note:before {
+    color: transparent;
+    text-shadow: 0 0 3px rgb(82, 18, 103);
+}
+
+.note:after {
+    background: rgb(112, 25, 141);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
